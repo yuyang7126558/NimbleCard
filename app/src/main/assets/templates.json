@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "type": 1000,
+      "style": {
+        "layout": "linearlayout",
+        "sub_style": {
+        }
+      },
+
+      "components": [
+        {
+          "component_tag": "text"
+        },
+        {
+          "component_tag": "image"
+        }
+      ],
+
+      "abilitys": [
+        {
+          "ability_tag": "auto_play",
+          "enabl_autoplay": false
+        }
+      ]
+    },
+
+    {
+      "type": 1001,
+      "description": "带子渲染属性的卡片demo",
+      "style": {
+        "layout": "linearlayout",
+        "sub_style": {
+
+        }
+      },
+      "components": [
+        {
+          "component_tag": "image"
+        },
+        {
+          "component_tag": "text"
+        }
+      ]
+    },
+    {
+      "type": 1002,
+      "description": "Relative布局动态卡片demo",
+      "style": {
+        "layout": "linearlayout",
+        "sub_style": {
+
+        }
+      },
+      "components": [
+        {
+          "component_tag": "image"
+        },
+        {
+          "component_tag": "text"
+        }
+      ]
+    }
+  ]
+}

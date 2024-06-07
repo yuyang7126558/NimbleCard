@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "type": 1009,
+      "style": {
+        "linearlayout": {
+          "direction": "vertical"
+        }
+      },
+
+      "components": [
+        {
+          "component_tag": "text",
+        },
+        {
+          "component_tag": "video_list"
+        }
+      ],
+
+      "abilitys": [
+        {
+          "ability_tag": "auto_play",
+          "enabl_autoplay": false
+        }
+      ]
+    },
+
+    {
+      "type": 1010,
+      "style": {
+        "linearlayout": {
+          "direction": "vertical"
+        },
+        "components": [
+          {
+            "component_tag": "text"
+          },
+          {
+            "component_tag": "big_video"
+          }
+        ]
+      }
+    }
+  ]
+}
