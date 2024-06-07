@@ -7,6 +7,8 @@ import android.view.ViewGroup
  * Created by colin.yu on 2024/5/28
  *
  * @author colin.yu@bytedance.com
+ *
+ * set base container
  */
 abstract class BaseNimbleContainer(context: Context) : ViewGroup(context) {
 
